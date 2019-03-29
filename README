@@ -1,0 +1,20 @@
+Periodic Table
+
+This file requires no change in the file.
+From command line or anaconda prompt, go to the folder and run the file using
+bokeh serve --show periodchart.py
+
+This would run the code in the browser.
+
+Walkthrough:
+This model doesn't involve machine learning but is a graphical representation of the periodic table.
+User can perform all functions like box zoom, wheen zoom, panning, saving the graph and other features in this graph.
+For filtering, I have introduced a dropdown menu from which user can select what he doesn't want to see in the hover box and that would be removed. The user can also close the hover tip by usinf the toolbar provided next to the graph.
+The data in the hover box is taken from the CSV file.
+
+The code also covers basic and advanced functionality of the assignment.
+Design patterns have been integrated in the model to make it more easy to use.
+
+
+References:
+https://github.com/bokeh
